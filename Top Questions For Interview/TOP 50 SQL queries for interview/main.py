@@ -7,7 +7,7 @@ import random
 fake = Faker()
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-# Create the full path for the database file in the same directory as the script
+# Tạo đường dẫn đầy đủ cho tệp cơ sở dữ liệu trong cùng thư mục với tập lệnh
 db_path = os.path.join(script_dir, 'top50queries.db')
 # Tạo kết nối đến cơ sở dữ liệu SQLite
 conn = sqlite3.connect(db_path)
