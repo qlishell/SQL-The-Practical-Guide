@@ -610,7 +610,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 
 ### Data ###
-*.csv
+# *.csv
 *.dat
 *.efx
 *.gbr
@@ -959,7 +959,7 @@ _book
 # eBook build output
 *.epub
 *.mobi
-*.pdf
+# *.pdf
 
 ### Go ###
 # If you prefer the allow list template instead of the deny list, see community template:
