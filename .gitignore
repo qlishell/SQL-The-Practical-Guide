@@ -610,7 +610,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 
 ### Data ###
-*.csv
+# *.csv
 *.dat
 *.efx
 *.gbr
